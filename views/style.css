@@ -3,11 +3,12 @@ header {
 }
 
 body {
-    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
     font-size: 13px;
     position:relative;
     border-collapse: collapse;
+    background-color: #fff159;
 }
 
 .box{
