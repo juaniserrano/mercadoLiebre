@@ -1,18 +1,20 @@
 const express = require('express');
-const path =  require('path');
-
 const app = express();
+app.use(express.static('public'));
 
-const publicPath = path.resolve(__dirname + '/public');
-const pathViews = path.resolve(__dirname + '/views');
 
-app.use( express.static(publicPath));
-app.use( express.static(pathViews));
+app.listen(3000, ()=>{
+    console.log('Servidor funcionando');
+});
 
-app.listen(3000, () => {
-    console.log('Levantando express')
-})
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
+});
 
-app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/home.html'))
+app.get('/login', (req,res)=>{
+    res.sendFile(__dirname + '/views/login.html');
+});
+
+app.get('/register', (req,res)=>{
+    res.sendFile(__dirname + '/views/register.html');
 });
