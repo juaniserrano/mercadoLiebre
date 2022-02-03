@@ -2,10 +2,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family : "Proxima Nova","Roboto", sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   background-color: #ebebeb;
 }
 
