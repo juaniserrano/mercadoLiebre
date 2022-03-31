@@ -17,7 +17,7 @@ $ npm install
 $ npm test
 ```
 
-You can also see this project on [Heroku website](https://mercado-liebre-juan-serrano.herokuapp.com/S)
+You can also see this project on [Heroku website](https://mercado-liebre-juan-serrano.herokuapp.com/)
 
 ### :notebook: Pre-Requisites
 
