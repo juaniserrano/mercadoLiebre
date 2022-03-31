@@ -1,59 +1,80 @@
-main{
-    height: 50vh;
+main {
+	height: 50vh;
 }
 
 .form_content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
-  margin: auto;
-  height: 70%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-top: 2rem;
+	margin: auto;
+	height: 100%;
 }
 
 .form_content form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 20vh;
-  margin: 0% 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 70%;
+	margin: 0 2rem;
+	align-items: center;
 }
 
 .form_content p,
-h2{
-    font-size: large;
-    text-align: center;
-}
-.form_content input {
-  height: 20%;
-  padding-left: 5%;
+h2 {
+	font-size: large;
+	text-align: center;
 }
 
-.form_content input[type="submit"] {
-  background-color: #3483fa;
-  border-color: transparent;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  padding-left: 0;
+input {
+	height: 3rem;
+	padding: 0.5rem;
+	width: 90%;
 }
 
-.crear_cuenta{
-    text-align: center
+.form_content input[type='submit'] {
+	background-color: #3483fa;
+	border-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding-left: 0;
+	width: 90%;
 }
 
-.form_content a{
-    color: #3483fa;
-    text-decoration: none;
-    text-shadow: 200px;
+.crear_cuenta {
+	text-align: center;
 }
 
-.login{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border: grey 1px solid;
-    width: 30%;
-    background-color: lightgrey;
+.form_content a {
+	color: #3483fa;
+	text-decoration: none;
+	text-shadow: 200px;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: grey 1px solid;
+	width: 90%;
+	background-color: lightgrey;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.fa-user,
+.fa-key {
+	padding-top: 1rem;
+	padding-right: 0.5rem;
+}
+
+.user,
+.pass {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: row;
 }
 

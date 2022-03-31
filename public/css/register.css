@@ -1,0 +1,47 @@
+/* Element | http://localhost:3000/register */
+
+.register {
+	margin-top: 2rem;
+	display: flex;
+	border: 1.5px solid grey;
+	padding: 1rem;
+	flex-direction: column;
+}
+
+/* Element | http://localhost:3000/register */
+
+.register > form:nth-child(1) {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Element | http://localhost:3000/register */
+
+input {
+	margin: 0.6rem;
+}
+
+input[type='submit'] {
+	background-color: #3483fa;
+	border-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding-left: 0;
+	width: 70%;
+	height: 2rem;
+}
+
+input[type='reset'] {
+	background-color: #b13636;
+	border-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding-left: 0;
+	width: 70%;
+	height: 2rem;
+}
