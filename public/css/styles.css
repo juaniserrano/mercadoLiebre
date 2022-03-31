@@ -308,3 +308,8 @@ article:hover {
 		flex-direction: column;
 	}
 }
+
+.footer-bar i {
+	padding-bottom: 10px;
+	font-size: 2em;
+}
